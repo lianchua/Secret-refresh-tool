@@ -12,14 +12,11 @@ Write your name on line 6, save it, and then head back to GitHub Desktop.
 
 chrome插件开发
 
-1.项目结构
-{
-    manifest.json // 插件必需的描述文件
-    js：{
-         	content.js // 获取当前页面dom对象的脚本
-    	background.js // 后台执行的js   
-    }
-    popup.html // 活动html页面
-    icon.png // 插件图标
+项目结构:
+manifest.json // 插件必需的描述文件
+content.js // 获取当前页面dom对象的脚本
+background.js // 后台执行的js   
+popup.html // 活动html页面
+icon.png // 插件图标
     
-}
+
