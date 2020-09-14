@@ -20,11 +20,11 @@ window.onload = function () {
         if (keyNum == 13 && flag) {
             console.log('键值正确，且flag为true')
             // 判断当前页面的url是否是我们想要实现按住刷新的url
-            if (url.indexOf('http://112.193.99.49:7890/test.html') != -1) {
+            if (url.indexOf('http://地址已经进行加密处理/test.html') != -1) {
                 // 捕获异常
                 try {
                     //获取页面上某个指定的class名字的dom对象
-                    var dom = document.getElementsByClassName('pandora-table-cell-content')
+                    var dom = document.getElementsByClassName('className')
                     // console.log(dom)
                     // console.log(dom.length)
                 } catch (error) {
