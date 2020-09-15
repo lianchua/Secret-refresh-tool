@@ -2,9 +2,9 @@
     // 必选项：用整数表示manifest文件自身格式的版本号。目前为止只接受 2 （版本目前为2） 
     "manifest_version": 2,
     // chrome插件的名字
-    "name": "fresh by press",
+    "name": "Secret-refresh-tool",
     // 插件的详细描述
-    "description": "my first chrome extension-browser action",
+    "description": "A plug-in that secretly refreshes automatically.",
     // 插件的当前版本号
     "version": "1.0",
     
@@ -31,7 +31,7 @@
     // 浏览器扩展栏显示的内容
     "browser_action": {
         // 当鼠标悬浮在图标上提示的文字
-        "default_title": "这是一个监控网页内容的刷新工具", 
+        "default_title": "一款能够隐秘的自动刷新的插件", 
         // 没有设置扩展栏icon默认使用插件icon
         "default_icon": "icon.png",
         // 活动的html页面
